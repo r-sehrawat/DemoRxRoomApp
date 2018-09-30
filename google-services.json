@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "218482818904",
+    "firebase_url": "https://raftel-b688e.firebaseio.com",
+    "project_id": "raftel-b688e",
+    "storage_bucket": "raftel-b688e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218482818904:android:069cc782de963c5b",
+        "android_client_info": {
+          "package_name": "com.example.kartiksehrawat.ourproduct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218482818904-mgker09crm16l71apugc31kle68t2efl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlZ0RXBt1vqAkiwki0ZNVYJ75Ns9rMLZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
