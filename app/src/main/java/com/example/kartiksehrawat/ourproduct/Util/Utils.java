@@ -32,14 +32,12 @@ public class Utils {
 
     public  void invokeDeeplink(DeepLinkActivity deepLinkActivity, String uri) {
         try {
-            Class cls = Class.forName("com.example.kartiksehrawat.ourproduct.Util.Utils");
+            Class cls = this.getClass();
             int index = uri.lastIndexOf("/");
-            Log.i("deeplink",uri.substring(index+1));
-            Method method= cls.getDeclaredMethod(uri.substring(index+1),String.class);
-            method.invoke(this,uri.substring(index+1));
+            Log.i("deeplink", uri.substring(index + 1));
+            Method method = cls.getDeclaredMethod(uri.substring(index + 1), String.class);
+            method.invoke(this, uri.substring(index + 1));
 
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
